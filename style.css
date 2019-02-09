@@ -1,9 +1,15 @@
 body {
     background: #1a1a1a;
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    line-height: 1.5;
 }
 
 #wrapper {
-    width: 920px;
+    width: 977px;
     margin: auto;
+}
+
+h2 {
+    margin: 5px;
 }
