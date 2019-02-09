@@ -8,12 +8,13 @@ body {
 .accordion {
     margin: auto;
     border-radius: 10px;
-    width: 945px;
+    min-width: 300px;
+    max-width: 950px;
     padding: 10px;
     background:#1a1a1a;
 }
 
-.accordion ul {
+.topic-list {
     list-style: none;
     margin: 0;
     padding: 0;   
@@ -54,7 +55,7 @@ body {
 
 .accordion .content ul {
     margin: 10px 10px 10px 0;
-    padding: 0 0 0 16px;
+    padding: 0 0 0 20px;
 }
 
 .accordion p {
@@ -66,10 +67,6 @@ body {
     color: white;
     padding: 0;
     margin: 10px 0;
-}
-
-.vertical ul li {
-    overflow: hidden;
 }
 
 .vertical ul li label {
