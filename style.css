@@ -85,6 +85,6 @@ body {
 }
 
 .vertical [type=checkbox]:checked ~ label ~ .content {
-    max-height: 1000px;
+    max-height: 1500px;
     border: 1px solid white;
 }
