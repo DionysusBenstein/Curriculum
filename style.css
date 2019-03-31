@@ -88,3 +88,14 @@ body {
     max-height: 1500px;
     border: 1px solid white;
 }
+
+::-webkit-scrollbar {
+    width: 8px;  
+    border-radius: 10px;
+    background: #232323;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #151515;
+}
