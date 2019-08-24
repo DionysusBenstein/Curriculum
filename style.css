@@ -68,6 +68,11 @@ body {
     -moz-transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
+.accordion .content ul li::selection {
+    background: white;
+    color: black
+}
+
 .accordion .content ul {
     margin: 10px 10px 10px 0;
     padding: 0 0 0 20px;
