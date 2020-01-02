@@ -64,8 +64,9 @@ body {
     overflow: hidden;
     font-size: medium;
     border: 1px solid #fff;
-    transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);
-    -moz-transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);
+    /*transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);*/
+    transition: all .25s ease-in-out;
 }
 
 .accordion .content ul li::selection {
@@ -100,8 +101,9 @@ body {
 .vertical ul li .content {
     height: auto;
     max-height: 0;
-    transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);
-    -moz-transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);
+    /*transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);*/
+    transition: all .25s ease-in-out;
 }
 
 .vertical [type=checkbox]:checked ~ label ~ .content {
