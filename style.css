@@ -1,7 +1,8 @@
 body {
     background: #1a1a1a;
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu,
+        Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     line-height: 2;
 }
 
@@ -17,7 +18,7 @@ body {
 .topic-list {
     list-style: none;
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
 
 .accordion li {
@@ -26,20 +27,21 @@ body {
 }
 
 .in-process {
-    color: #F2D600;
+    color: #f2d600;
 }
 
-.completed  {
-    color: #61BD4F;
+.completed {
+    color: #61bd4f;
     list-style-type: none;
     text-indent: -20px;
 }
 
 .completed::before {
-    content: "✓\a0\a0"
+    content: "✓\a0\a0";
 }
 
-.accordion [type=radio], .accordion [type=checkbox] {
+.accordion [type="radio"],
+.accordion [type="checkbox"] {
     display: none;
 }
 
@@ -54,8 +56,10 @@ body {
     user-select: none;
 }
 
-.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
-    background:white;
+.accordion ul li label:hover,
+.accordion [type="radio"]:checked ~ label,
+.accordion [type="checkbox"]:checked ~ label {
+    background: white;
     color: #1a1a1a;
 }
 
@@ -66,12 +70,12 @@ body {
     border: 1px solid #fff;
     /*transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);
     -moz-transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);*/
-    transition: all .25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .accordion .content ul li::selection {
     background: white;
-    color: black
+    color: black;
 }
 
 .accordion .content ul {
@@ -80,7 +84,7 @@ body {
 }
 
 .accordion p {
-    color: white; 
+    color: white;
     margin: 0 0 10px;
 }
 
@@ -94,7 +98,8 @@ body {
     padding: 16px;
 }
 
-.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+.vertical [type="radio"]:checked ~ label,
+.vertical [type="checkbox"]:checked ~ label {
     border-bottom: 0;
 }
 
@@ -103,20 +108,20 @@ body {
     max-height: 0;
     /*transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);
     -moz-transition: all .25s cubic-bezier(0.4, 0.0, 0.2, 1);*/
-    transition: all .25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
-.vertical [type=checkbox]:checked ~ label ~ .content {
+.vertical [type="checkbox"]:checked ~ label ~ .content {
     max-height: 1500px;
     border: 1px solid white;
 }
 
 ::-webkit-scrollbar {
-    width: 8px;  
+    width: 8px;
     border-radius: 10px;
     background: #1f1f1f;
 }
- 
+
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: #151515;
