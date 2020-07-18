@@ -120,7 +120,7 @@ a:hover {
 }
 
 .vertical [type="checkbox"]:checked ~ label ~ .content {
-    max-height: 1500px;
+    max-height: 3000px;
     border: 1px solid white;
 }
 
