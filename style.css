@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
     background: #1a1a1a;
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu,
-        Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 2;
 }
 
