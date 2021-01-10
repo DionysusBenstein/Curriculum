@@ -1,2 +1,2 @@
 # Curriculum
-Computer Science curriculum
+Computer science curriculum website
